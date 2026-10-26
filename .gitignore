@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Notebook execution / profiling artifacts
+*.trace.json
+*.pt.trace.json
+profiler_traces/
+tb_logs/
+lightning_logs/
+
+# W&B (offline mode writes here if used)
+wandb/
+
+# OS / editor cruft
+.DS_Store
+.vscode/
+.idea/
+
+# Otter local check artifacts
+/.OTTER_LOG
